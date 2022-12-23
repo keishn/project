@@ -1,0 +1,61 @@
+.regis {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+    ),
+    url("https://cdn.wallpapersafari.com/5/13/Y2VSy8.jpg");
+    background-size: cover;
+}
+
+.regisTitle {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+.regisForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.regisForm > label {
+    margin: 10px 0;
+}
+
+.regisInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.regisInput:focus {
+    outline: none;
+}
+
+.regisButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: hotpink;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.regisLoginButton {
+    margin-top: 20px;
+    background-color: lightpink;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+    ),
+    url("https://rare-gallery.com/mocahbig/467270-minimalism-flowers-simple-pink-background-cherry.png");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightpink;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginRegister {
+    margin-top: 20px;
+    background-color: hotpink;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}

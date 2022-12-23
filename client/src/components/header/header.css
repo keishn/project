@@ -1,0 +1,22 @@
+.header{
+    margin-top: 0;
+    width: 100%;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    color: #444444;
+}
+.headerTitle{
+    position: absolute;
+    top: 30%;
+    font-size: 100px;
+}
+.headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
